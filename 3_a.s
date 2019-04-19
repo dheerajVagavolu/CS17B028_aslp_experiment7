@@ -76,8 +76,8 @@ fourth:
 addi $sp, $sp, -4
 sw $ra, 0($sp)
 
-add.s $f0, $f0, $f0
-add.s $f0, $f0, $f0
+mul.s $f0, $f0, $f0
+mul.s $f0, $f0, $f0
 add.s $f0, $f0, $f2
 
 
